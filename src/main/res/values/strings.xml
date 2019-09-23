@@ -1,0 +1,10 @@
+<resources>
+    <string name="Giacomo">"\u00a9"2019 CALCULUX-ALL RIGHTS RESERVED</string>
+    <string name="app_name">HNG 6.0</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="Qbs0GQODjC4ujZWbzfC8kUtYPtyQUQIq4xD7vFqf">PASTE_YOUR_APPLICATION_ID_HERE</string>
+    <string name="JnMUIT3SkjzdXiqqZibaFn7oetfag5hCOlRpsBFF">PASTE_YOUR_CLIENT_KEY_HERE</string>
+
+</resources>

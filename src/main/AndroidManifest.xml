@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="android.bignerdranch.cpslogin">
+
+
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.INTERNET" />
+
+        <application
+            android:name=".App"
+            android:allowBackup="true"
+            android:icon="@drawable/logo2"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:replace="android:appComponentFactory"
+            android:appComponentFactory="@string/app_name">
+            <meta-data
+                android:name="com.parse.SERVER_URL"
+                android:value="@string/back4app_server_url" />
+            <meta-data
+                android:name="com.parse.APPLICATION_ID"
+                android:value="@string/JnMUIT3SkjzdXiqqZibaFn7oetfag5hCOlRpsBFF" />
+            <meta-data
+                android:name="com.parse.CLIENT_KEY"
+                android:value="@string/Qbs0GQODjC4ujZWbzfC8kUtYPtyQUQIq4xD7vFqf" />
+
+            <activity android:name=".LoginActivity">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+            <activity android:name=".SignUpActivity" />
+            <activity android:name=".LogoutActivity" />
+        </application>
+
+    </manifest>

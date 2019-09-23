@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:layout_alignParentTop="true"
+    tools:layout_alignParentStart="true"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Back"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#ff00"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#ffff"
+        android:text="username" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:text="password"
+        android:fontFamily="sans-serif-black"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:text="Re-enter Password"
+        android:fontFamily="sans-serif-black"/>
+
+    <EditText
+        android:id="@+id/passwordAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:fontFamily="sans-serif-black"/>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_gravity="center"
+        android:text="Sign Up"
+        android:textColor="#ff00"
+        android:fontFamily="sans-serif-black"/>
+</LinearLayout>
+
